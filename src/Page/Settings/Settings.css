@@ -1,0 +1,335 @@
+.wrapper-setting {
+  width: 100%;
+  height: 100vh;
+  margin-top: 70px;
+}
+.title-main-setting {
+  float: left;
+  margin-left: 50px;
+  margin-top: -40px;
+  font-size: 25px;
+}
+.wrapper-setting p {
+  float: left;
+  margin-left: 50px;
+  font-size: 15px;
+  color: #595757;
+}
+.line-cut-setting {
+  width: 1545px;
+  margin-left: -940px;
+  height: 2px;
+  background-color: #bfc5ce;
+  position: absolute;
+  margin-top: 45px;
+}
+.nav-setting-demo {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-top: 60px;
+  margin-left: -270px;
+  text-align: left;
+}
+.subnav-setting-demo {
+  padding-top: 15px;
+  color: #5f5d5d;
+  cursor: pointer;
+}
+.subnav-setting-demo:hover {
+  color: #000000;
+}
+.title-setting {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 1000px;
+}
+.title-setting > label {
+  margin-right: 15px;
+  position: absolute;
+}
+.title-setting > input {
+  height: 50px;
+  margin-top: 30px;
+  font-size: 18px;
+  width: 400px;
+  border-radius: 5px;
+  border: 2px solid #a6a5a5;
+  padding-left: 15px;
+}
+.title-error {
+  font-size: 15px;
+  margin-left: 30px;
+  color: brown;
+  position: absolute;
+}
+.email-setting {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 1000px;
+}
+.email-setting > label {
+  margin-right: 15px;
+  position: absolute;
+  margin-top: -25px;
+}
+.email-setting > input {
+  height: 50px;
+  font-size: 18px;
+  width: 400px;
+  margin-top: 8px;
+  border-radius: 5px;
+  border: 2px solid #a6a5a5;
+  padding-left: 15px;
+}
+.email-error {
+  font-size: 15px;
+  margin-left: 130px;
+  color: brown;
+  position: absolute;
+}
+.bg-setting {
+  position: absolute;
+  margin-top: 335px;
+  margin-left: 1000px;
+}
+.bg-setting > label {
+  position: absolute;
+  margin-top: -55px;
+  margin-left: 0px;
+}
+
+.bg-input-color {
+  width: 70px;
+  height: 50px;
+  border-radius: 5px;
+
+  background-color: #ffff;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  z-index: 9999;
+  margin-top: -20px;
+}
+input[type="color"] {
+  border-radius: 5px;
+}
+.bg-input-color-text {
+  height: 50px;
+  width: 350px;
+  border: 2px solid #a6a5a5;
+  padding-left: 130px;
+  font-size: 20px;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -20px;
+}
+.bgColor-error-error {
+  font-size: 15px;
+  margin-left: 130px;
+  color: brown;
+  position: absolute;
+  margin-top: 30px;
+  white-space: nowrap;
+}
+.date-setting {
+  margin-top: 430px;
+  margin-left: 1000px;
+  position: absolute;
+}
+.date-setting label {
+  margin-top: -35px;
+  position: absolute;
+}
+.DateRangePickerInput {
+  height: 50px;
+  width: 400px;
+  border: 2px solid #a6a5a5;
+  border-radius: 5px;
+}
+.start-date-error {
+  font-size: 13px;
+  margin-left: 45px;
+  color: brown;
+  position: absolute;
+}
+.end-date-error {
+  font-size: 13px;
+  margin-left: 225px;
+  color: brown;
+  position: absolute;
+}
+.save-setting {
+  margin-top: -20px;
+  position: absolute;
+  margin-left: 1685px;
+}
+.save-setting > button {
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #5620b4;
+  color: #ffffff;
+}
+.title-save {
+  margin-left: 20px;
+}
+.save-setting:hover > button {
+  background-color: #4e1ca3;
+}
+.cut-line-setting-demo {
+  width: 2px;
+  height: 900px;
+  background-color: #bfc5ce;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 500px;
+}
+@media screen and (min-width: 1921px) {
+  .line-cut-setting {
+    width: 2210px;
+    margin-left: -1270px;
+  }
+  .save-setting {
+    margin-left: 2345px;
+  }
+}
+@media (min-width: 1026px) and (max-width: 1440px) {
+  .line-cut-setting {
+    width: 1120px;
+    margin-left: -710px;
+  }
+  .save-setting {
+    margin-left: 1245px;
+  }
+  .title-setting {
+    margin-left: 750px;
+  }
+  .email-setting {
+    margin-left: 750px;
+  }
+  .bg-setting {
+    margin-left: 750px;
+  }
+  .date-setting {
+    margin-left: 750px;
+  }
+}
+@media (min-width: 770px) and (max-width: 1025px) {
+  .line-cut-setting {
+    width: 1024px;
+    margin-left: -675px;
+  }
+  .cut-line-setting-demo {
+    margin-left: 200px;
+  }
+  .save-setting {
+    margin-left: 845px;
+  }
+  .title-setting {
+    margin-left: 400px;
+  }
+  .email-setting {
+    margin-left: 400px;
+  }
+  .bg-setting {
+    margin-left: 400px;
+  }
+  .date-setting {
+    margin-left: 400px;
+  }
+}
+@media (min-width: 740px) and (max-width: 769px) {
+  .line-cut-setting {
+    width: 768px;
+    margin-left: -550px;
+  }
+  .cut-line-setting-demo {
+    margin-left: 200px;
+  }
+  .save-setting {
+    margin-left: 580px;
+  }
+  .title-setting {
+    margin-left: 300px;
+  }
+  .email-setting {
+    margin-left: 300px;
+  }
+  .bg-setting {
+    margin-left: 300px;
+  }
+  .date-setting {
+    margin-left: 300px;
+  }
+}
+@media (max-width: 430px) {
+  .line-cut-setting {
+    width: 768px;
+    margin-left: -550px;
+  }
+  .cut-line-setting-demo {
+    display: none;
+  }
+  .save-setting {
+    margin-top: 600px;
+    margin-left: 250px;
+  }
+  .title-setting {
+    margin-left: 25px;
+  }
+  .email-setting {
+    margin-left: 25px;
+  }
+  .bg-setting {
+    margin-left: 25px;
+  }
+  .date-setting {
+    margin-left: 25px;
+  }
+  .nav-setting-demo {
+    display: none;
+  }
+}
+@media (max-width: 376px) {
+  .line-cut-setting {
+    width: 768px;
+    margin-left: -550px;
+  }
+  .cut-line-setting-demo {
+    display: none;
+  }
+  .save-setting {
+    margin-top: 600px;
+    margin-left: 200px;
+  }
+  .title-setting {
+    margin-left: 10px;
+  }
+  .title-setting input,
+  .email-setting input,
+  .date-setting input {
+    width: 375px;
+  }
+  .bg-input-color-text {
+    width: 325px;
+  }
+  .DateRangePickerInput {
+    width: 375px;
+  }
+  .email-setting {
+    margin-left: 13px;
+  }
+  .bg-setting {
+    margin-left: 13px;
+  }
+  .date-setting {
+    margin-left: 13px;
+  }
+  .nav-setting-demo {
+    display: none;
+  }
+}

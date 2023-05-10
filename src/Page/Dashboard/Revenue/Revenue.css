@@ -1,0 +1,77 @@
+.column-chart {
+  width: 1200px;
+  height: 530px;
+  margin-top: 130px;
+  margin-left: 500px;
+  z-index: 1;
+  position: absolute;
+}
+.title-column-chart {
+  margin-left: -200px;
+  margin-top: -10px;
+  color: #5e6278;
+}
+
+@media screen and (min-width: 1921px) {
+  .column-chart {
+    margin-top: 130px;
+    margin-left: 700px;
+    width: 1400px;
+  }
+  .title-column-chart {
+    margin-left: -20px;
+  }
+}
+@media (min-width: 1026px) and (max-width: 1440px) {
+  .column-chart {
+    margin-top: 150px;
+    margin-left: 415px;
+    width: 900px;
+  }
+  .title-column-chart {
+    margin-left: -20px;
+  }
+}
+@media (min-width: 770px) and (max-width: 1025px) {
+  .column-chart {
+    margin-top: 250px;
+    margin-left: 315px;
+    width: 600px;
+  }
+  .title-column-chart {
+    margin-left: -20px;
+  }
+}
+@media (min-width: 740px) and (max-width: 769px) {
+  .column-chart {
+    margin-top: 250px;
+    margin-left: 215px;
+    width: 500px;
+  }
+  .title-column-chart {
+    margin-left: -20px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 430px) {
+  .column-chart {
+    margin-top: 250px;
+    margin-left: 25px;
+    width: 400px;
+  }
+  .title-column-chart {
+    margin-left: -20px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 376px) {
+  .column-chart {
+    margin-top: 250px;
+    margin-left: 25px;
+    width: 340px;
+  }
+  .title-column-chart {
+    margin-left: -20px;
+    font-size: 15px;
+  }
+}
